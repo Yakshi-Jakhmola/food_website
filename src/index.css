@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+   .menu-links{
+    @apply border-b-2 border-solid border-b-black
+   }
+   .headfont{
+      @apply font-headfont
+   }
+   .category-active{
+      @apply rounded-full border-solid border-orange-600 border-4
+   }
+}
